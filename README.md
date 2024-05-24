@@ -99,14 +99,6 @@
     <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/e3b7150a-f258-4f24-b201-85ab776e0ff6">
     
     - 댓글 내용을 입력을 하고 등록 버튼을 누르면 됩니다.<br> <br>
-
-    <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/0c6adf44-5070-48a7-8447-f27709656b1c">
-
-    - 댓글 쪽 신고 버튼을 누르면 alert 창이 뜨며 데이터가 삭제 됩니다. <br> <br>
- 
-    <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/098dc5c3-a1df-419c-91da-5c45a4b12ec0">
-
-    - 댓글이 사라진 것을 볼 수 있습니다.
   </details>  
  
 
