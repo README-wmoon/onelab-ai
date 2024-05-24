@@ -61,6 +61,7 @@
   - 비속어의 개수랑 비속어가 아닌 데이터를 학습시키는 과정에서 데이터의 균형을 맞추기 위해 언더샘플링을 사용하였습니다.
   - <details>
       <summary>보기</summary>
+    
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/6fc44236-bc44-444a-996b-e26a0ca9e734">
     </details>  
     
