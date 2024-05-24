@@ -27,7 +27,6 @@
 ## ✨ 데이터 수집
 - Naive Bayes 모델로 사용하였습니다.
 - 수집 데이터 세트 깃허브 주소: https://github.com/2runo/Curse-detection-data
-- 크롤링을 통한 수집
   
   1. 데이터
   - 일반 댓글과 욕설을 합쳐서 csv파일로 통합하였습니다.
