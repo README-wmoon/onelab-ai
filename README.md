@@ -1,4 +1,4 @@
-# Onelab AI Project
+# Onelab 커뮤니티 댓글 AI Project
 
 <h3>🖥️ AI 프로젝트 소개</h3>
 
