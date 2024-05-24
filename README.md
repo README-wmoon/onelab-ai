@@ -55,9 +55,9 @@
     </details>  
     
 
-  4. GridSearchCV
+  4. 데이터 fit
   - GridSearchCV를 사용하여 모델의 하이퍼파라미터를 튜닝하는 과정을 통해 최적의 파라미터를 찾는 방법을 사용하였습니다.
-  - CountVectorizer와 MultinomialNB를 사용하여 텍스트 분류기를 만들었습니다.
+  - CountVectorizer를 사용하여 텍스트 데이터를 수치 데이터로 변환하고, MultinomialNB 분류기를 사용하여 예측하였습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/b5ebce7f-807f-4eaa-b07a-48a23cb5a79b">
