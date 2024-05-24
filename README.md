@@ -20,18 +20,13 @@
 
 ### ✨ 화면
 - Ai를 사용해서 적용할 화면 입니다.
-- <details>
-     <summary>보기</summary>
-     <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/e3b7150a-f258-4f24-b201-85ab776e0ff6">
-  </details>
+<img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/e3b7150a-f258-4f24-b201-85ab776e0ff6">
   
 
-### ✨ 데이터 수집
-- smailgate 회사 비속어랑 유튜브 리뷰 비속어로 이용하여 데이터를 수집하였습니다.
-- 작업 환경은 jupyter notebook으로 환경해서 진행하였습니다.
-- Naive Bayes 분류기를 사용하였습니다.
+### ✨ 데이터 훈련
+- Naive Bayes 모델로 사용하였습니다.
   1. 데이터
-  - 스마일게이트 회사가 게임에서 가져온 비속어와 유튜브 리뷰 비속어 모델을 합쳐서 csv파일로 만들었습니다.
+  - 스마일게이트 회사가 게임에서의 대화 내용과와 유튜브 리뷰 비속어 모델을 합쳐서 csv파일로 만들었습니다.
     <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
@@ -41,7 +36,19 @@
   - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 전처리를 진행하였습니다.
   - <details>
       <summary>보기</summary>
-      <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/3015ae85-f7be-4536-88e2-3cc2735ce798">
+    
+    ```
+        # 데이터 전처리 함수 정의
+        def preprocess_text(text):
+            # 특수 문자 제거
+            text = re.sub(r'[^가-힣a-zA-Z0-9\s-]', '', text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            # 형태소 분석
+            words = text.split()
+            # 불용어 제거
+            text = ' '.join([word for word in words if word not in korean_stopwords])
+            return text
+     ```
     </details>  
     
 
