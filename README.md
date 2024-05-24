@@ -40,7 +40,7 @@
     </details>
 
   2. 데이터 전처리
-  - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 진행하였습니다.
+  - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 전처리를 진행하였습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/3015ae85-f7be-4536-88e2-3cc2735ce798">
