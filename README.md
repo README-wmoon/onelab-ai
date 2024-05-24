@@ -56,7 +56,7 @@
     
 
   4. GridSearchCV
-  - GridSearchCV를 사용하여 모델의 하이퍼파라미터를 튜닝하는 과정을 통해 최적의 파라미터를 찾는 방법을 사용하였습니다.
+  - GridSearchCV를 사용하여 모델의 하이퍼파라미터를 튜닝하는 과정을 통해 최적의 파라미터를 찾는 방법을 사용하였습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/b5ebce7f-807f-4eaa-b07a-48a23cb5a79b">
