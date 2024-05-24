@@ -33,14 +33,14 @@
 - 작업 환경은 jupyter notebook으로 환경해서 진행하였습니다.
 - 사용한 방법은 Naive Bays로 하였으며 그것은 다음과 같습니다.
   1. 데이터
-  - 데이터 모델을 csv로 하여 처리하였습니다.
+  - 스마일게이트 회사 비속어와 유튜브 리뷰 모델을 합쳐서 csv파일로 만들었습니다.
     <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
     </details>
 
   2. 데이터 전처리
-  - 데이터 모델의 함수를 정의했으며, 데이터 모델을 전처리 했습니다.
+  - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 진행하였습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/3015ae85-f7be-4536-88e2-3cc2735ce798">
@@ -48,7 +48,7 @@
     
 
   3. 데이터 언더 샘플링
-  - 데이터를 언더 샘플링을 하여서 처리하였습니다.
+  - 비속어의 개수랑 비속어가 아닌 샘플의 개수가 불균형하여 언더 샘플링 진행하였습니다
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/6fc44236-bc44-444a-996b-e26a0ca9e734">
@@ -63,8 +63,8 @@
     </details>  
 
     
-  5. 실험 결과
-  - 실험 결과는 정확도, 정밀도, 재현율, f1 score로 나타내었습니다.
+  5. 모델 검증 결과
+  - 모델 검증 결과는 정확도, 정밀도, 재현율, f1 score로 나타내었습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/ecbe713a-c3b2-46a5-a4a3-86cebc04c5f1">
@@ -72,13 +72,13 @@
     
 
   6. pkl 파일로 내보내기
-  - 훈련된 데이터들을 Django로 보내기 위해서 pkl 파일로 내보냈습니다.
+  - Ai를 Django에서 사용하기 위하여 pkl 파일로 내보냈습니다.
   - <details>
       <summary>보기</summary>
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/bcaa911a-a8fc-4832-b988-f45b6916e756">
     </details> 
   
-### ✨ Django로 구현
+### ✨ Django
 1. HTML, CSS
 2. JS
 3. View
@@ -114,8 +114,7 @@
       - 신고 쪽 입니다.
   </details> 
  
-  
-  - 파이썬의 코드는 이렇습니다.
+
   - AI View <br>
     - Post 방식으로 reply_content를 담아 그것이 비속어인지 아닌지 구분하였습니다.
     - 또한 check_comments에 비속어인지 아닌지 Ai훈련된 모델의 함수를 호출하여 사용하였습니다.
@@ -143,13 +142,7 @@
    - 해결 : 강력 새로고침과 캐시 삭제를 하고 다시 로그인을 하니 해결 되었습니다.
 
 ### ✨ 느낀점
-- 이번 AI 프로젝트에서는 저에 대한 부족한 점이 많았습니다.
-- 프로젝트 진행 중에도 팀원들이 모델의 학습과 평가, 그리고 성능 최적화에 대해 많은 노력을 기울이는 것을 보며 배울 점이 많았습니다.
-- 향후에는 더 적극적으로 참여하여 프로젝트에 기여하고 싶습니다.
+- 제가 Ai
 
-### ✨ 개선사항
-- 프로젝트를 하며 몇가지 개선사항이 필요하다고 생각합니다
-1. 모델의 실시간 처리 능력: 댓글이 작성될 떄 실시간으로 비속어를 감지하고 경고하는 시스템이 필요하다고 생각했다.
-2. 사용자 피드백: 팀원들이랑 사람들의 피드백을 적극적으로 수용하여 더 나은 성과를 얻을 수 있을것이라고 생각했다.
   
   
