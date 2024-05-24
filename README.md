@@ -30,10 +30,12 @@
 
   1. 데이터
   - 일반 댓글과 욕설을 합쳐서 csv파일로 통합하였습니다.
-    <details>
+  -  <details>
        <summary>보기</summary>
+      
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
     </details>
+   
 
   2. 데이터 전처리
   - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 전처리를 진행하였습니다.
@@ -68,6 +70,7 @@
   - CountVectorizer를 사용하여 텍스트 데이터를 수치 데이터로 변환하고, MultinomialNB 분류기를 사용하여 예측하였습니다.
   - <details>
       <summary>보기</summary>
+    
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/b5ebce7f-807f-4eaa-b07a-48a23cb5a79b">
     </details>  
 
@@ -76,6 +79,7 @@
   - 모델 검증 결과는 정확도, 정밀도, 재현율, f1 score로 나타내었습니다.
   - <details>
       <summary>보기</summary>
+    
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/ecbe713a-c3b2-46a5-a4a3-86cebc04c5f1">
     </details>  
     
@@ -84,6 +88,7 @@
   - Ai를 Django에서 사용하기 위하여 pkl 파일로 내보냈습니다.
   - <details>
       <summary>보기</summary>
+    
       <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/bcaa911a-a8fc-4832-b988-f45b6916e756">
     </details> 
   
