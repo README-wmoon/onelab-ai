@@ -21,13 +21,15 @@
 
 ## ✨ 화면
 - Ai를 사용해서 적용할 화면 입니다.
-<img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/e3b7150a-f258-4f24-b201-85ab776e0ff6">
+<img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/61067828-e150-42cb-94a3-99fb92396996">
   
 
-## ✨ 데이터 훈련
+## ✨ 데이터 수집
 - Naive Bayes 모델로 사용하였습니다.
+- 수집 데이터 세트 깃허브 주소: https://github.com/2runo/Curse-detection-data
+- 크롤링을 통한 수집
   1. 데이터
-  - 스마일게이트 회사가 게임에서의 대화 내용과와 유튜브 리뷰 비속어 모델을 합쳐서 csv파일로 만들었습니다.
+  - 일반 댓글 욕설을 합쳐서 csv파일로 통합하였습니다.
     <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
