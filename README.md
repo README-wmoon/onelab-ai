@@ -21,10 +21,7 @@
 
 ### ✨ 화면
 - Ai를 사용해서 적용할 화면 입니다.
-- <details>
-     <summary>보기</summary>
-     <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/52323e32-fe97-415d-b75b-6d9c06cdc498">
-  </details>
+- <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/52323e32-fe97-415d-b75b-6d9c06cdc498">
   
 
 ### ✨ 데이터 수집
