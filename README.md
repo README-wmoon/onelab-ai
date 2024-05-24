@@ -30,7 +30,7 @@
 - 크롤링을 통한 수집
   
   1. 데이터
-  - 일반 댓글 욕설을 합쳐서 csv파일로 통합하였습니다.
+  - 일반 댓글과 욕설을 합쳐서 csv파일로 통합하였습니다.
   - <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
