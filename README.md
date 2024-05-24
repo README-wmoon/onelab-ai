@@ -33,7 +33,7 @@
 - 작업 환경은 jupyter notebook으로 환경해서 진행하였습니다.
 - 사용한 방법은 Naive Bays로 하였으며 그것은 다음과 같습니다.
   1. 데이터
-  - 스마일게이트 회사와 유튜브 리뷰 비속어 모델을 합쳐서 csv파일로 만들었습니다.
+  - 스마일게이트 회사가 게임에서 가져온 비속어와 유튜브 리뷰 비속어 모델을 합쳐서 csv파일로 만들었습니다.
     <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
