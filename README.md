@@ -28,9 +28,10 @@
 - Naive Bayes 모델로 사용하였습니다.
 - 수집 데이터 세트 깃허브 주소: https://github.com/2runo/Curse-detection-data
 - 크롤링을 통한 수집
+  
   1. 데이터
   - 일반 댓글 욕설을 합쳐서 csv파일로 통합하였습니다.
-    <details>
+  - <details>
        <summary>보기</summary>
        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/5ac15f5e-a2d6-4a8a-a9a1-1b66a89c9067">
     </details>
