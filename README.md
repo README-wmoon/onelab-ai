@@ -39,6 +39,7 @@
   - 특수 문자 제거, 형태소 분석, 불용어 제거 함수를 사용하여 전처리를 진행하였습니다.
   - <details>
       <summary>보기</summary>
+    
       ```
         # 데이터 전처리 함수 정의
         def preprocess_text(text):
@@ -51,8 +52,7 @@
             text = ' '.join([word for word in words if word not in korean_stopwords])
             return text
         ```
-    </details>  
-  - 
+  </details>
     
 
   3. 데이터 언더 샘플링
