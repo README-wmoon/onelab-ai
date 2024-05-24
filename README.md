@@ -122,20 +122,20 @@
   </details> 
  
   
-  - AI View <br>
-    - Post 방식으로 reply_content를 담아 그것이 비속어인지 아닌지 구분하였습니다.
-    - 또한 check_comments에 비속어인지 아닌지 Ai훈련된 모델의 함수를 호출하여 사용하였습니다.
-    - <details>
-        <summary>댓글 코드 입니다.</summary>
-        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/d0a09e70-f161-41a2-a6e6-9f7de0e62556">
-        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/2f9f8c5e-282b-43e7-9d79-a8fdb1f13731"> 
-      </details>
-      
-    - <details>
-        <summary>신고 코드 입니다.</summary>
-        <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/7d8e06cc-02c0-48f4-a329-6e71f7c06edb">
-      </details> 
-  
+### View <br>
+  - Post 방식으로 reply_content를 담아 그것이 비속어인지 아닌지 구분하였습니다.
+  - 또한 check_comments에 비속어인지 아닌지 Ai훈련된 모델의 함수를 호출하여 사용하였습니다.
+  - <details>
+      <summary>댓글 코드 입니다.</summary>
+      <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/d0a09e70-f161-41a2-a6e6-9f7de0e62556">
+      <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/2f9f8c5e-282b-43e7-9d79-a8fdb1f13731"> 
+    </details>
+    
+  - <details>
+      <summary>신고 코드 입니다.</summary>
+      <img src="https://github.com/onelab-server-ai/onelab-ai/assets/129862668/7d8e06cc-02c0-48f4-a329-6e71f7c06edb">
+    </details> 
+
 ## 4. ✨ TroubleShooting
 1. await fetch 비동기쪽 데이터를 불러오는 중 발생한 문제
    - 문제 : 데이터를 불러오는 중에 url이 not found가 뜰때가 많았었습니다. 또한 urls에 경로를 다시 확인하고 썻는데도 문제가 있었다.
